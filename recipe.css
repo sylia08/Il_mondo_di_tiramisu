@@ -1,0 +1,132 @@
+
+body {
+    font-family: 'Nerko One', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #D2B48C;
+}
+
+header {
+    background-color: #605135;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .topnav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .buttons-right {
+    display: flex;
+    align-items: right;
+}
+
+header .title {
+    font-family: 'Nerko One';
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+header .button {
+    background-color: #555;
+    font-family: 'Nerko One';
+    color: white;
+    padding: 10px 15px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header .button:hover {
+    background-color: #777;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.steps {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.3s ease;
+}
+
+.steps:hover {
+    transform: translateY(-5px); 
+}
+
+
+.steps h3 {
+    font-family: 'Nerko One';
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.steps a {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    text-decoration: none;
+}
+
+
+.missenplace {
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.missenplace h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: 684e2e;
+}
+
+.missenplace a {
+    font-family: 'Nerko One';
+    font-size: 16px;
+    color: #555;
+}
+
+.steps {
+    display: middle;
+    width: 100%;
+    text-align: center;
+}
+
+.steps a {
+    font-family: 'Nerko One';
+    display: block;
+    padding: 10px;
+    background-color: #684e2e;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.steps a:hover {
+    background-color: #684e2e;
+}
