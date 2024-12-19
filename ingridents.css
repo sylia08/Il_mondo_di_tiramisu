@@ -63,30 +63,30 @@ title{
     margin: 0;
     font-size: 80px;
     font-weight: bold;
-    color: #f9f9f9;
+    color: #684e2e;
     text-align: center;
 }
 
-.container-lg {
-    display: flex;
-    align-items:center;
-    justify-content: center ;
+.container {
     column-gap: 15px;
     background-color:#684e2e;
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0m2px 5px rgba(0, 0, 0, 0.1);
-    width: 1000px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center ;
     }
     
-    .container-lg h2{
+    .container h2{
         margin: 0 ;
-        font-size: 80px;
+        font-size: 100px;
     
     }
     
-    .container-lg a {
+    .container a {
         margin: 0;
-        font-size: 40px;
+        font-size: 50px;
         color:   #f9f9f9;
     }
